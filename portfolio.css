@@ -1,0 +1,64 @@
+
+html{ font-size: 62.5%;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;}
+
+body{ 
+    width: 50%;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.9);
+   display: flex;
+   flex-direction: column;
+   justify-self: center;
+}
+
+.explore{
+     display:flex;
+    flex-direction: row;
+    
+}
+
+.mechdesigns {
+    height: 10px;
+    width: 70px;
+    color:  white;
+    background-color: blueviolet;
+    padding: 1rem;
+    margin-right: 2rem;
+    border-radius: 1.5rem;
+    display:flex;
+    justify-content: center;
+
+}
+.codes {
+    height: 10px;
+    width: 50px;
+color: white;
+    background-color: blueviolet;
+    padding: 1rem;
+border-radius: 1.5rem;
+display:flex;
+justify-content: center;
+}
+   
+
+
+
+
+/* CSS STYLESHEET CODE  FOR MECHDESIGNS.HTML*/ 
+.gallery {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+}
+img{ width:15rem;}
+.mechimages:hover{
+    width:15.5rem;
+}
+video{
+    width: 15rem;
+}
+
+p{ color: rgb(112, 110, 110);}
+    
